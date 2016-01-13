@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9531" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="GroupDetailsViewController" customModule="Foam_Factions" customModuleProvider="target">
+            <connections>
+                <outlet property="groupAddress" destination="5oj-du-NRf" id="aKX-F6-elq"/>
+                <outlet property="groupMemberCount" destination="D4a-mO-1n2" id="1as-16-aUo"/>
+                <outlet property="groupTitle" destination="FfN-Pg-oYQ" id="AzD-GU-alj"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Group Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FfN-Pg-oYQ">
+                    <rect key="frame" x="29" y="25" width="524" height="27"/>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="22"/>
+                    <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Group Address" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5oj-du-NRf">
+                    <rect key="frame" x="29" y="74" width="524" height="21"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="21" id="nLF-Ce-iyB"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1 Member" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="D4a-mO-1n2">
+                    <rect key="frame" x="29" y="48" width="183" height="21"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="183" id="4Q7-3a-SVj"/>
+                        <constraint firstAttribute="height" constant="21" id="kg7-Fk-s4d"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                    <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="FfN-Pg-oYQ" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="25" id="1iP-G4-MCI"/>
+                <constraint firstAttribute="trailing" secondItem="FfN-Pg-oYQ" secondAttribute="trailing" constant="47" id="9Ek-Dg-ZPg"/>
+                <constraint firstItem="5oj-du-NRf" firstAttribute="trailing" secondItem="FfN-Pg-oYQ" secondAttribute="trailing" id="Ebk-BQ-P1f"/>
+                <constraint firstItem="D4a-mO-1n2" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="48" id="RS0-pe-4nJ"/>
+                <constraint firstItem="5oj-du-NRf" firstAttribute="top" secondItem="D4a-mO-1n2" secondAttribute="bottom" constant="5" id="W47-TN-jQi"/>
+                <constraint firstItem="5oj-du-NRf" firstAttribute="top" secondItem="FfN-Pg-oYQ" secondAttribute="bottom" constant="22" id="Zx2-di-1gt"/>
+                <constraint firstItem="FfN-Pg-oYQ" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="29" id="mZm-Ks-sC7"/>
+                <constraint firstItem="FfN-Pg-oYQ" firstAttribute="leading" secondItem="D4a-mO-1n2" secondAttribute="leading" id="nKh-yE-lV5"/>
+                <constraint firstItem="5oj-du-NRf" firstAttribute="leading" secondItem="D4a-mO-1n2" secondAttribute="leading" id="r9G-bF-yx7"/>
+            </constraints>
+            <point key="canvasLocation" x="642" y="591"/>
+        </view>
+    </objects>
+</document>

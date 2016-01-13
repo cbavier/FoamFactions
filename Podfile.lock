@@ -1,0 +1,22 @@
+PODS:
+  - Bolts/Tasks (1.5.1)
+  - ImagePicker (1.1)
+  - IQKeyboardManagerSwift (3.3.5)
+  - Parse (1.11.0):
+    - Bolts/Tasks (~> 1.5)
+  - SnapKit (0.18.0)
+
+DEPENDENCIES:
+  - ImagePicker
+  - IQKeyboardManagerSwift
+  - Parse
+  - SnapKit
+
+SPEC CHECKSUMS:
+  Bolts: a12663244b1d3351c738882e71902fc74db54f64
+  ImagePicker: 2a904341bbc47c96457de00558d2f8dd186eff7c
+  IQKeyboardManagerSwift: 17f1ebf3fe07f7905369c6dca2da1051b6fea805
+  Parse: 886af46a0a677402f6374bb97ac212e795f70afe
+  SnapKit: e1f090a6d47b1dd4bd89b73f72b6746a7835ef3c
+
+COCOAPODS: 0.39.0
